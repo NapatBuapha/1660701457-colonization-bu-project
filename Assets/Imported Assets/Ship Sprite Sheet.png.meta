@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1660701457 Ship_Sprite_0
+      name: Ship_Sprite_1 Caravel
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
         width: 483
         height: 471
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,15 +134,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1660701457 Ship_Sprite_1
+      name: Ship_Sprite_2 Merchantman
       rect:
         serializedVersion: 2
         x: 478
-        y: 29
+        y: 517
         width: 515
-        height: 979
+        height: 491
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,15 +156,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1660701457 Ship_Sprite_2
+      name: Ship_Sprite_3 Galleon
       rect:
         serializedVersion: 2
         x: 992
-        y: 23
+        y: 502
         width: 531
-        height: 992
+        height: 509
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1660701457 Ship_Sprite_3
+      name: Ship_Sprite_4 Privateer
       rect:
         serializedVersion: 2
         x: 32
@@ -186,7 +186,7 @@ TextureImporter:
         width: 423
         height: 457
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,23 +200,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1660701457 Ship_Sprite_4
+      name: Ship_Sprite_5 Frigate
       rect:
         serializedVersion: 2
-        x: 494
-        y: 453
-        width: 7
-        height: 10
+        x: 498
+        y: 11
+        width: 468
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90307ee775686ade0800000000000000
-      internalID: -1322221730237316343
+      spriteID: ef18a1191b025f64a92914a2fbfb3737
+      internalID: 347124354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Sprite_6 Man Of War
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 26
+        width: 514
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add2232b7cbe5834e924987fdbb5c25b
+      internalID: 1340359358
       vertices: []
       indices: 
       edges: []
@@ -225,7 +247,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f65159937162a024e9b533a224df3f4c
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +257,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1660701457 Ship_Sprite_0: 8316641573322168175
-      1660701457 Ship_Sprite_1: -8381118647903999982
-      1660701457 Ship_Sprite_2: 7932183329505120776
-      1660701457 Ship_Sprite_3: -8459711347888068231
       1660701457 Ship_Sprite_4: -1322221730237316343
+      Ship_Sprite_1 Caravel: 8316641573322168175
+      Ship_Sprite_2 Merchantman: -8381118647903999982
+      Ship_Sprite_3 Galleon: 7932183329505120776
+      Ship_Sprite_4 Privateer: -8459711347888068231
+      Ship_Sprite_5 Frigate: 347124354
+      Ship_Sprite_6 Man Of War: 1340359358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
