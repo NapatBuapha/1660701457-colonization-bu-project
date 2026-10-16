@@ -34,6 +34,23 @@ public class Town : MonoBehaviour
     [SerializeField]
     protected GameManager gameManager;
 
+    [SerializeField]
+    private int[] warehouse = new int[16];
+    public int[] Warehouse { get { return warehouse; } set { warehouse = value; } }
+
+    [SerializeField]
+    private int[] totalYieldThisTurn = new int[16]; //no. of all resource production this turn
+    public int[] TotalYieldThisTurn { get { return totalYieldThisTurn; } set { totalYieldThisTurn = value; } }
+
+    [SerializeField]
+    private int crossNum; //no. of crosses produced in this turn
+    public int CrossNum { get { return crossNum; } set { crossNum = value; } }
+
+    [SerializeField]
+    private int bellNum; //no. of bells produced in this turn
+    public int BellNum { get { return bellNum; } set { bellNum = value; } }
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

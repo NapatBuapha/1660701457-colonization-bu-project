@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -29,6 +31,22 @@ public class UIManager : MonoBehaviour
 
     public static UIManager instance;
 
+    [SerializeField]
+    private TerrainSlot currentSlot;
+
+    [SerializeField]
+    private GameObject blockImage;
+
+    [SerializeField]
+    private GameObject professionPanel;
+
+    [SerializeField]
+    private TMP_Text labelQuestionText;
+
+    [SerializeField]
+    private TMP_Text[] btnYieldTexts;
+
+
     private void Awake()
     {
         instance = this;
@@ -37,24 +55,56 @@ public class UIManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SetupHexSlots(Hex centerHex, Hex[] aroundHexes)
     {
         centerSlot.HexSlotInit(centerHex);
 
+        //Setup Auto Food productoin on CenterSlot
+        centerSlot.Hex.YieldID = 0; //food
+        centerSlot.AdjustActualYieldAndAccumulate();
+
         for (int i = 0; i < areaSlots.Length; i++)
         {
             areaSlots[i].HexSlotInit(aroundHexes[i]);
         }
     }
+
+    private void SetupYieldInTerrain()
+    {
+        foreach (TerrainSlot terrainSlot in areaSlots)
+        {
+            if (terrainSlot.Hex == null)
+                continue;
+
+            if (terrainSlot.Hex.Labor != null && terrainSlot.Hex.YieldID != -1)
+            {
+                terrainSlot.AdjustActualYieldAndAccumulate();
+            }
+        }
+    }
+
+    public void RemoveAllYieldIcons()
+    {
+        centerSlot.RemoveYieldIcons();
+
+        foreach (TerrainSlot terrainSlot in areaSlots)
+        {
+            if (terrainSlot == null)
+                continue;
+
+            terrainSlot.RemoveYieldIcons();
+        }
+    }
+
 
     private void DestroyOldUnitDrag()
     {
@@ -115,6 +165,7 @@ public class UIManager : MonoBehaviour
         if (show == false)
         {
             DestroyOldUnitDrag();
+            RemoveAllYieldIcons();
             HideUnitWorkInTown(GameManager.instance.CurTown.CurHex);
         }
         townPanel.SetActive(show);
@@ -125,5 +176,70 @@ public class UIManager : MonoBehaviour
         SetupHexSlots(curHex, aroundHexes);
         SetupUnitDragOutsideTown(curHex);
         SetupUnitDragWorkingInTerrain();
+        SetupYieldInTerrain();
     }
+
+    public void SetupParentSpacing(int n, Transform parent, int iconWidth, int parentWidth)
+    {
+        if (n <= 1)
+            return;
+
+        HorizontalLayoutGroup layout = parent.GetComponent<HorizontalLayoutGroup>();
+
+        int totalWidth = iconWidth * n;
+        int excessWidth = totalWidth - parentWidth;
+
+        if (excessWidth <= 0)
+            return;
+
+        int result = excessWidth / (n - 1);
+        layout.spacing = -result;
+    }
+
+    public void UpdateLabelQuestionText()
+    {
+        if (currentSlot == null)
+            return;
+
+        string s = string.Format("Select a profession for {0}", currentSlot.Hex.Labor.UnitName);
+        labelQuestionText.text = s;
+    }
+
+    public void UpdateButtonTextsYield()
+    {
+        if (currentSlot == null)
+            return;
+
+        for (int i = 0; i < btnYieldTexts.Length; i++)
+        {
+            string s = string.Format("{0} {1}",
+                currentSlot.NormalYield[i], GameManager.instance.ProductData[i].productName);
+
+            btnYieldTexts[i].text = s;
+        }
+    }
+
+    public void SelectProfession(TerrainSlot slot)
+    {
+        currentSlot = slot;
+
+        UpdateLabelQuestionText();
+        UpdateButtonTextsYield();
+
+        blockImage.SetActive(true);
+        professionPanel.SetActive(true);
+    }
+
+    public void SelectYield(int i)//Link to Select Profession Button on UI
+    {
+        Debug.Log($"Select: {i}");
+
+        if (currentSlot != null)
+            currentSlot.SelectYield(i);
+
+        blockImage.SetActive(false);
+        professionPanel.SetActive(false);
+    }
+
+
 }

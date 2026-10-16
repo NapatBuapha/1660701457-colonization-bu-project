@@ -81,6 +81,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Town curTown;
     public Town CurTown { get { return curTown; } set { curTown = value; } }
+    [SerializeField]
+    private ProductData[] productData;
+    public ProductData[] ProductData {get {return productData;}}
 
     public const int ARCTICNORTH = HEIGHT - 2; //58
     public const int ARCTICSOUTH = 2;

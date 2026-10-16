@@ -133,9 +133,9 @@ TextureImporter:
       name: Hex00_Ocean
       rect:
         serializedVersion: 2
-        x: 307
+        x: 304
         y: 1343
-        width: 320
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -155,9 +155,9 @@ TextureImporter:
       name: Hex00_Grassland
       rect:
         serializedVersion: 2
-        x: 660
-        y: 1343
-        width: 320
+        x: 663
+        y: 1344
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -177,9 +177,9 @@ TextureImporter:
       name: Hex00_Prairies
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 1343
-        width: 320
+        x: 1017
+        y: 1349
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -200,8 +200,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1374
-        y: 1348
-        width: 320
+        y: 1350
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -221,9 +221,9 @@ TextureImporter:
       name: Hex00_Plain
       rect:
         serializedVersion: 2
-        x: 303
-        y: 926
-        width: 320
+        x: 301
+        y: 939
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -243,9 +243,9 @@ TextureImporter:
       name: Hex00_Tundra
       rect:
         serializedVersion: 2
-        x: 661
-        y: 931
-        width: 320
+        x: 653
+        y: 930
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -267,7 +267,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1014
         y: 929
-        width: 320
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -289,7 +289,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1368
         y: 932
-        width: 320
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -309,9 +309,9 @@ TextureImporter:
       name: Hex00_Arctic
       rect:
         serializedVersion: 2
-        x: 302
-        y: 504
-        width: 320
+        x: 301
+        y: 497
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -331,9 +331,9 @@ TextureImporter:
       name: Hex00_Hills
       rect:
         serializedVersion: 2
-        x: 653
-        y: 505
-        width: 320
+        x: 659
+        y: 503
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -353,9 +353,9 @@ TextureImporter:
       name: Hex00_Mountains
       rect:
         serializedVersion: 2
-        x: 1011
-        y: 508
-        width: 320
+        x: 1021
+        y: 513
+        width: 327
         height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
