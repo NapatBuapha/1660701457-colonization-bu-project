@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429d88d3deb48ff488420610fa895bd1, type: 3}
-  m_Name: Aztec
+  m_Name: Narragansett
   m_EditorClassIdentifier: Assembly-CSharp::FactionData
-  nation: 9
+  nation: 8
   isEuropean: 0
-  flagIcon: {fileID: 21300000, guid: e4813a68115b1de4abdcbb6011188d1a, type: 3}
-  shieldIcon: {fileID: 21300000, guid: 4635124580bc0ea408ee2b1484ebca26, type: 3}
+  flagIcon: {fileID: 202318602, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
+  shieldIcon: {fileID: 202318602, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
   unitIcon: {fileID: 0}
-  townIcon: {fileID: 21300000, guid: abee968a8121ac844a9e7f3f00130d4d, type: 3}
-  isTropicalNatives: 1
+  townIcon: {fileID: 21300000, guid: 821d3783d7f72ab468a1a88c7538064f, type: 3}
+  isTropicalNatives: 0

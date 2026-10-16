@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429d88d3deb48ff488420610fa895bd1, type: 3}
-  m_Name: Apache
+  m_Name: Calusa
   m_EditorClassIdentifier: Assembly-CSharp::FactionData
-  nation: 8
+  nation: 5
   isEuropean: 0
-  flagIcon: {fileID: 21300000, guid: b3072eb4c46a0174c970d26c77979d43, type: 3}
-  shieldIcon: {fileID: 21300000, guid: 8ab705833d893fa4ebfd8a59591f081e, type: 3}
+  flagIcon: {fileID: -2263581805909196373, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
+  shieldIcon: {fileID: -2263581805909196373, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
   unitIcon: {fileID: 0}
   townIcon: {fileID: 21300000, guid: 821d3783d7f72ab468a1a88c7538064f, type: 3}
+  isTropicalNatives: 0

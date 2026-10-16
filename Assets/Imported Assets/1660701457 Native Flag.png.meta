@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: b3d3f414ca528094096f5f01a688532e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2263581805909196373
+    second: 1660701457 Native Flag_0
+  - first:
+      213: 2938260701509550466
+    second: 1660701457 Native Flag_1
+  - first:
+      213: -1839924035322773118
+    second: 1660701457 Native Flag_2
+  - first:
+      213: 1757540765822000581
+    second: 1660701457 Native Flag_3
+  - first:
+      213: 9077245193959894614
+    second: 1660701457 Native Flag_4
+  - first:
+      213: 1629742004312744953
+    second: 1660701457 Native Flag_5
+  - first:
+      213: 5100600216681863101
+    second: 1660701457 Native Flag_6
+  - first:
+      213: 8557911667956159721
+    second: 1660701457 Native Flag_7
+  - first:
+      213: -2703978524756343820
+    second: 1660701457 Native Flag_8
+  - first:
+      213: 978469049285940318
+    second: 1660701457 Native Flag_9
+  - first:
+      213: -7558177587104323257
+    second: 1660701457 Native Flag_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Calusa
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 379
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1ceba27542690e0800000000000000
+      internalID: -2263581805909196373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powhatan
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 517
+        width: 368
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c0b7b793d295479ca0b3e40860811
+      internalID: 367399114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wampanoag
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 515
+        width: 389
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9208bde26f19d4546a779b77e5504171
+      internalID: 192802419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Narragansett
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 512
+        width: 369
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b6962fa9a698445a573593aa533c7a
+      internalID: 202318602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pequot
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 382
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84062213c7f6ebd4c83a3c064324d52e
+      internalID: 1324219548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mohegan
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 11
+        width: 362
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa6ef63131e4f24a8cd13376ee75ed4
+      internalID: 612388213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lenape
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 11
+        width: 397
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603213fe470a6004b8da7b44384186be
+      internalID: -1924490458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakonnet
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 0
+        width: 371
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f37ab3b089ad304894f9026f8399b05
+      internalID: 1202176413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 35e7e847006c7d949b04c2041c448dac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1660701457 Native Flag_1: 2938260701509550466
+      1660701457 Native Flag_10: -7558177587104323257
+      1660701457 Native Flag_11: -1107108288
+      1660701457 Native Flag_2: -1839924035322773118
+      1660701457 Native Flag_3: 1757540765822000581
+      1660701457 Native Flag_4: 9077245193959894614
+      1660701457 Native Flag_5: 1629742004312744953
+      1660701457 Native Flag_6: 5100600216681863101
+      1660701457 Native Flag_7: 8557911667956159721
+      1660701457 Native Flag_8: -2703978524756343820
+      1660701457 Native Flag_9: 978469049285940318
+      Calusa: -2263581805909196373
+      Lenape: -1924490458
+      Mohegan: 612388213
+      Narragansett: 202318602
+      Pequot: 1324219548
+      Powhatan: 367399114
+      Sakonnet: 1202176413
+      Wampanoag: 192802419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

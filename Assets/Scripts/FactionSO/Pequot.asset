@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429d88d3deb48ff488420610fa895bd1, type: 3}
-  m_Name: Maya
+  m_Name: Pequot
   m_EditorClassIdentifier: Assembly-CSharp::FactionData
-  nation: 11
+  nation: 9
   isEuropean: 0
-  flagIcon: {fileID: 21300000, guid: 6a16987719636ea4e856b628f23152d4, type: 3}
-  shieldIcon: {fileID: 21300000, guid: fc05381cf8481fa4faf8302023d327ef, type: 3}
+  flagIcon: {fileID: 1324219548, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
+  shieldIcon: {fileID: 1324219548, guid: b3d3f414ca528094096f5f01a688532e, type: 3}
   unitIcon: {fileID: 0}
-  townIcon: {fileID: 21300000, guid: abee968a8121ac844a9e7f3f00130d4d, type: 3}
-  isTropicalNatives: 1
+  townIcon: {fileID: 21300000, guid: 821d3783d7f72ab468a1a88c7538064f, type: 3}
+  isTropicalNatives: 0
